@@ -53,13 +53,14 @@
       await instance.render();
       // Automatically open the chat window
       instance.openWindow();
+      instance.restartConversation();
     }
 
     // This is the standard web chat configuration object. You can modify these values with the embed code for your
     // own assistant if you wish to try this example with your assistant. You can find the documentation for this at
     // https://web-chat.global.assistant.watson.cloud.ibm.com/docs.html?to=api-configuration#configurationobject.
     window.watsonAssistantChatOptions = {
-      integrationID: "5fefbde9-5327-4e38-b02e-21a317bfba5c",
+      integrationID: "5018323e-52e6-4b43-b98a-7358f559c8a2",
       region: "eu-de",
       serviceInstanceID: "2e3b3f1c-2a05-4ff8-87e9-a346d21b3674",
       // This is where we provide the custom element to web chat so it knows where it is supposed to be placed.
